@@ -1,0 +1,17 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding: 1rem;
+
+  max-width: var(--max-width);
+  list-style: none;
+}
+.logo {
+  font-size: 1.5rem;
+  color: rgb(var(--foreground-rgb));
+  align-items: center;
+  padding: 1rem;
+}
