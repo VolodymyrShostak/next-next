@@ -41,7 +41,7 @@ const CountriesList: FC<any> = ({ countries }) => {
               <Td>{country.population}</Td>
               <Td>{country.region}</Td>
 
-              {/* <Td>{country.capital}</Td> */}
+              <Td>{country.capital}</Td>
             </Tr>
           ))}
         </Tbody>

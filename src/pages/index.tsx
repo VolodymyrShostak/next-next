@@ -21,7 +21,7 @@ export default function Home({ countries }: any) {
   // };
 
   return (
-    <Layout children={undefined}>
+    <Layout >
       <Input
         variant="filled"
         placeholder="Search for a country..."
